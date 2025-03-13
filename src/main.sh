@@ -21,7 +21,7 @@ if [ -z "$DIR_NAME" ] || [ -z "$PARENT_DIR" ]; then
     usage
 fi
 
-FULL_PATH="$PARENT_DIR/$DIR_NAME"
+FULL_PATH="${PARENT_DIR}${DIR_NAME}"
 
 # Create the directory
 mkdir -p "$FULL_PATH" || { echo "Failed to create directory"; exit 1; }

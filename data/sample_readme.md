@@ -18,10 +18,10 @@ Before using the code it is best to setup and start a Python virtual environment
 # Navigate into the project directory
 
 # Create a virtual environment
-python3 -m venv email-daily-news
+python3 -m venv <venv>
 
 # Activate virtual environment
-source email-daily-news/bin/activate
+source <venv>/bin/activate
 
 # Install dependencies for code
 pip3 install -r requirements.txt
